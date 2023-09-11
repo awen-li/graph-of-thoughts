@@ -13,9 +13,9 @@ from typing import List, Dict, Union
 from .abstract_language_model import AbstractLanguageModel
 
 
-class Llama2HF(AbstractLanguageModel):
+class CodeLlama(AbstractLanguageModel):
     """
-    An interface to use LLaMA 2 models through the HuggingFace library.
+    An interface to use CodeLLaMA models.
     """
 
     def __init__(
